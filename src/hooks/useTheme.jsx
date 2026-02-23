@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'preact/hooks';
 
 export function useTheme() {
-  const [theme, setTheme] = useState(() => 
-    localStorage.getItem('theme') || 'system'
-  );
+  const [theme, setTheme] = useState("system");
+
+  useEffect(() => { setTheme(localStorage.getItem("link-theme") || "system"); }, []);
 
   useEffect(() => {
     const root = window.document.documentElement;
