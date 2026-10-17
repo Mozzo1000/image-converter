@@ -12,15 +12,15 @@
 	},
 	"dependencies": {
 		"@tailwindcss/vite": "^4.3.3",
-		"lucide-preact": "^1.52.0",
+		"lucide-preact": "^1.57.0",
 		"preact": "^10.29.8",
 		"preact-iso": "^2.12.2",
-		"preact-render-to-string": "^6.8.0",
+		"preact-render-to-string": "^6.8.1",
 		"tailwindcss": "^4.3.3"
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.64.0",
+		"@playwright/test": "^1.64.1",
 		"@preact/preset-vite": "^2.10.6",
-		"vite": "^8.3.3"
+		"vite": "^8.3.4"
 	}
 }
