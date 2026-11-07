@@ -11,16 +11,16 @@
 		"test:e2e:win": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/test-e2e-docker.ps1"
 	},
 	"dependencies": {
-		"@tailwindcss/vite": "^4.3.3",
-		"lucide-preact": "^1.52.0",
+		"@tailwindcss/vite": "^4.3.4",
+		"lucide-preact": "^1.68.0",
 		"preact": "^10.29.8",
 		"preact-iso": "^2.12.2",
-		"preact-render-to-string": "^6.8.0",
+		"preact-render-to-string": "^6.8.2",
 		"tailwindcss": "^4.3.3"
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.64.0",
+		"@playwright/test": "^1.64.1",
 		"@preact/preset-vite": "^2.10.6",
-		"vite": "^8.3.3"
+		"vite": "^8.3.5"
 	}
 }
